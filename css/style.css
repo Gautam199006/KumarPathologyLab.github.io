@@ -1,0 +1,238 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+	width: 100;
+	height: 100vh;
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.mainheader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainheader .logo img{
+	width: 250px; height: 70px;
+	padding-left: 60px;
+	font-weight: bold;
+}
+
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mainheader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.menubtn{
+	margin-right: 60px;
+}
+
+.mainheader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-color: #0487D9;
+	border-radius: 10px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .right-sec{
+	
+}
+
+main .left-sec{
+	padding-left: 100px;
+}
+
+.left-sec h2{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: #242424;
+	margin-top: 200px;
+}
+
+.left-sec button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-color: #0487D9;
+	border-radius: 10px;
+}
+
+/************ About Us Css Starts *********/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+/******** footer css starts *******/
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #0487D9;
+	position: relative;
+}
+
+.footersection p{
+	color: #fff;
+}
+
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+#myBTn{
+	/*display: none;*/
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	background: #00abff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#myBTn:hover{
+	background: #606060;
+
+}
+
+
+
+
+/********** Contact Us CSS Starts ****/
+
+body{
+ background-image: url(images/back.jpg);
+ background-size:cover;
+}
+hr{
+background: white;	
+}
+
+.contact-form{
+			background:rgba(0,0,0, .6);
+			color:white;
+			margin-top: 100px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 3px grey;
+		}
